@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* --- 共通部分 --- */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: serif;
+    line-height: 1.7;
+    color: #000000;
+    background-color: #ffffff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
