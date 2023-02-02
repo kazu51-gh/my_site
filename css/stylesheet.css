@@ -32,6 +32,10 @@ header a {
     text-decoration: none;
 }
 
+.current {
+    background-color: #c0ffee;
+}
+
 main {
     margin-left: 10px;
 }
@@ -51,12 +55,12 @@ footer {
     display: flex;
 }
 
-#footer_contents p span{
+#footer_contents p span {
     border: solid 1px #000000;
     margin-right: 10px;
 }
 
-#footer_contents a{
+#footer_contents a {
     color: #000000;
     text-decoration: none;
 }
