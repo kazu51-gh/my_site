@@ -133,6 +133,15 @@ body {
         text-decoration: none;
     }
 
+    table {
+        border: 1px solid;
+        text-align: center;
+    }
+    
+    td {
+        border: 1px solid;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
