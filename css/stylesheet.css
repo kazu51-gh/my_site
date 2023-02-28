@@ -33,6 +33,23 @@ body {
         color: #000000;
         text-decoration: none;
     }
+
+    #menu-list ul {
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    #menu-list li {
+        border: solid 1px #000000;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    #menu-list a {
+        display: block;
+        padding: 2px 4px;
+    }
     
     .current {
         background-color: #c0ffee;
@@ -87,6 +104,7 @@ body {
 @media screen and (max-width: 420px) {
     header {
         margin-left: 10px;
+        margin-right: 10px;
     }
 
     header p span {
@@ -98,8 +116,33 @@ body {
         color: #000000;
         text-decoration: none;
     }
-    
-    .current {
+
+    #menu-list ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    #menu-list li {
+        border: solid 1px #000000;
+        width: 100%;
+        margin-right: 2px;
+        margin-left: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-list a {
+        display: block;
+        padding: 2px 4px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-list .current {
         background-color: #c0ffee;
     }
 
