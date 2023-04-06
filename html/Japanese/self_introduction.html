@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>kazuのホームページ</title>
         <link rel="stylesheet" href="../../css/stylesheet.css">
+        <script src="../../javascript/script.js"></script>
     </head>
-    <body>
+    <body onload="init()">
         <div id="Home">
             <div class="container">
                 <header>
@@ -23,7 +24,7 @@
                 <main>
                     <h2>基本情報</h2>
                     <p>名前：kazu</p>
-                    <p>生年月日：2001年06月17日(21歳)</p>
+                    <p>生年月日：2001年06月17日(<span id="my_age_ja"></span>)</p>
                     <p>所属：京都産業大学 情報理工学部 情報理工学科 4年生</p>
                     <p>趣味：ゲーム・サッカー・個人開発</p>
                     <p>バイト：塾講師 - 数学担当(2021年～)</p>
