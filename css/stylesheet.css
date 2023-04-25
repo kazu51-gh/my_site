@@ -98,6 +98,10 @@ body {
     td {
         border: 1px solid;
     }
+
+    span {
+        padding: 0 2px;
+    }
 }
 
 /* --- スマートフォン向け設定 --- */
